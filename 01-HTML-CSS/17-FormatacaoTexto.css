@@ -1,0 +1,14 @@
+body{ margin: 0px; }
+
+.texto{
+	width: 500px;
+	height: 200px;
+	background-color: #5D6D7D;
+	color: white;
+	font-size:40px;
+	font-family:Helvetica,Verdana,Arial;
+	font-weight: normal;
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
