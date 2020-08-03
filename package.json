@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0"
   }
