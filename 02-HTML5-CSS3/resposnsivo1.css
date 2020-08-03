@@ -1,43 +1,49 @@
-body{
-	margin: 0
+body {
+  margin: 0;
 }
-.topo{
-	width: 100%;
-	max-width: 800px;
-	height: 100px;
-	margin: auto;
+
+.topo {
+  width: 100%;
+  max-width: 800px;
+  height: 100px;
+  margin: auto;
 }
-.logo{
-	width: 50%;
-	height: 100px;
-	float: left;
-	background-color: #EEE;
+
+.logo {
+  width: 50%;
+  height: 100px;
+  float: left;
+  background-color: #eee;
 }
-.menu{
-	width: 50%;
-	height: 100px;
-	float: left;
-	background-color: #DDD;
+
+.menu {
+  width: 50%;
+  height: 100px;
+  float: left;
+  background-color: #ddd;
 }
-.corpo{
-	width: 100%;
-	max-width: 800px;
-	height: 200px;
-	margin: auto;
-	background-color: #CCC;
+
+.corpo {
+  width: 100%;
+  max-width: 800px;
+  height: 200px;
+  margin: auto;
+  background-color: #ccc;
 }
-.rodape{
-	width: 100%;
-	max-width: 800px;
-	height: 100px;
-	margin: auto;
-	background-color: #DDD;
+
+.rodape {
+  width: 100%;
+  max-width: 800px;
+  height: 100px;
+  margin: auto;
+  background-color: #ddd;
 }
+
 /* primeira parte da aula
 **
 @media only screen and (min-width: 500px) and (max-width: 800px){
 	.topo,.corpo,.rodape{
-		width:500px; 
+		width:500px;
 	}
 }
 @media only screen and (max-width: 500px){
@@ -53,11 +59,13 @@ body{
 	}
 }
 */
-@media only screen and (max-width: 500px){
-	.topo{
-		height: 200px;
-	}
-	.logo, .menu {
-		width: 100%;
-	}
+@media only screen and (max-width: 500px) {
+  .topo {
+    height: 200px;
+  }
+
+  .logo,
+  .menu {
+    width: 100%;
+  }
 }
